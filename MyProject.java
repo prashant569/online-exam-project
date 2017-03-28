@@ -81,23 +81,23 @@ void set()
 {
 if (p==0)
 {
-l.setText("Q.1- which girl of nith has big tits?");
-rb[0].setText("1.prerna");rb[1].setText("2.ankita mehra");rb[2].setText("3.both 1 & 2");rb[3].setText("N.O.T");
+l.setText("Q.1- who is the director of nith");
+rb[0].setText("1.susheel chauhan");rb[1].setText("2.ajay k.sharma");rb[2].setText("3.rajneesh srivastava");rb[3].setText("N.O.T");
 }
 if(p==1)
 {
-l.setText("Q.2- which girl is famous for 420 ?");
-rb[0].setText("1.neha");rb[1].setText("2.astha");rb[2].setText("3.bakri");rb[3].setText(" both 1 & 3");
+l.setText("Q.2- freecode camp site is famous for what?");
+rb[0].setText("1.open source");rb[1].setText("2.web development");rb[2].setText("3.competitive");rb[3].setText(" both 1 & 3");
 }
 if(p==2)
 {
-l.setText("Q.3- stud of 3rd year in cse branch ?");
-rb[0].setText("1.shan rasila");rb[1].setText("2.prashant shukla");rb[2].setText("3.mama");rb[3].setText("1 & 2");
+l.setText("Q.3- is java is object oriented language ?");
+rb[0].setText("1.yes");rb[1].setText("2.no");rb[2].setText("3.may be");rb[3].setText("NOT");
 }
 if(p==3)
 {
-l.setText("Q.4- shivam chaudary is famous for ?");
-rb[0].setText("1.his name buboo");rb[1].setText("2.swag");rb[2].setText("teeth");rb[3].setText("1 & 2");
+l.setText("Q.4- which company is most popular now a days for processor ?");
+rb[0].setText("1.intel ");rb[1].setText("2.AMD");rb[2].setText("samsung");rb[3].setText("1 & 2");
 }
 
 
@@ -107,16 +107,16 @@ boolean check()
 //rb[4].isSelected(true);
 
 if(p==0)
-return(rb[0].isSelected());
+return(rb[1].isSelected());
 
 if(p==1)
-return(rb[3].isSelected());
+return(rb[1].isSelected());
 
 if(p==2)
 return(rb[0].isSelected());
 
 if(p==3)
-return(rb[3].isSelected());
+return(rb[0].isSelected());
 
 return false;
 
